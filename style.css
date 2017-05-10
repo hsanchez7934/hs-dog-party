@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #92E0E5;
+}
+
+main {
+  width: 100%;
+  background-image: url(dog-party-assets/park.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+section {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  background-color: #3F8DA7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#hamburger-menu {
+
+}
+
+#dog-icon-container {
+  height: 100%;
+  width: 20%;
+  margin: 0;
+  float: left;
+}
+
+#links-container {
+  height: 100%;
+  width: 80%;
+  margin: 0;
+  float: right;
+  text-align: right;
+  padding-top: 20px;
+}
+
+#dog-icon {
+  height: 30px;
+  width: 30px;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+
+#what-are-dogs {
+  height: 35px;
+  width: 132px;
+  background-color: #fff;
+  margin-top: 10px;
+  border: 3px solid #3F8DA7;
+  font-size: 14px;
+  font-weight: bold;
+  color: #3f8da7;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#bully-dog {
+  border-radius: 60%;
+  height: 300px;
+  border: 3px solid #3F8DA7;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.dog-article {
+  width: 33%;
+  height: 100%;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.article-title {
+  margin: 0;
+  padding-top: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.article-image {
+  border-radius: 60%;
+  border: 2px solid #3F8DA7;
+  height: 200px;
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-text {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.article-button {
+  height: 30px;
+  width: 120px;
+  border: 3px solid #3F8DA7;
+  background-color: #fff;
+  font-size: 15px;
+  color: #3F8DA7;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.social-media-icons {
+  height: 38px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 30px;
+}
+
+#social-media-icons-container {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#github-link {
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .dog-article {
+    display: block;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #bully-dog {
+    height: 270px;
+  }
+
+  .links {
+    margin-right: 20px;
+    font-size: 17px;
+  }
+}
+
+  @media screen and (max-width: 370px) {
+    .social-media-icons {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    }
+
+    #social-media-icons-container{
+      width: 270px;
+    }
+  }
